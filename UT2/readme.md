@@ -103,9 +103,9 @@ El programa debe indicar exactamente qué le falta a la contraseña para ser vá
 ##  Ejercicio 3.
 Realiza un programa que ordene alfabéticamente el nombre de tres
 alumnos, que estarán en tres variables String.
-Al comenzar el programa, se pide al usuario los nombres quiere ordenar
+Al comenzar el programa, se pide al usuario los nombres quiere ordenar alfabéticamente de la a la z
 Finalizará mostrando el resultado imprimiendo en mayúsculas un nombre en cada línea
-alfabéticamente de la a la z
+
 
 # Ejercicio 4: carácter repetido
 
