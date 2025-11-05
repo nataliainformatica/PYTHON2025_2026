@@ -109,4 +109,4 @@ Finalizará mostrando el resultado imprimiendo en mayúsculas un nombre en cada 
 
 # Ejercicio 4: carácter repetido
 
-Escribir un programa en Java que detecte el primer carácter repetido de una cadena de caracteres.
+Escribir un programa en Python que detecte el primer carácter repetido de una cadena de caracteres.
