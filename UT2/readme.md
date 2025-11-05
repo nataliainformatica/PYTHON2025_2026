@@ -1,5 +1,5 @@
 ## Ejercicio 1
-La cabecera de Google de hoy - 23 de octubre de 2022
+La cabecera de Google del- 23 de octubre de 2022
 
 ![RETO](https://github.com/nataliainformatica/PROGRAMACION_DAM_25_26/blob/main/recursos%26imagenes/secuenciaADNjpg.jpg?raw=true)
 
@@ -16,7 +16,8 @@ Disponemos de una molécula de ADN formada por dos cadenas complementarias, cada
 
 Queremos comprobar si la molécula está correctamente ordenada (es decir, si las bases se emparejan según las reglas de complementariedad) o si presenta una mutación.
 
-Para ello:
+## ACTIVIDAD
+
 
 Se pedirá al usuario que introduzca las dos cadenas, carácter a carácter.
 
