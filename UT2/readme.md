@@ -113,5 +113,5 @@ Escribir un programa en Python que detecte el primer carácter repetido de una c
 
 
 # Ejercicio5: Códigos de barras
-<a href="[https://miweb.com](https://aceptaelreto.com/problem/statement.php?id=106&cat=4)" target="_blank">Visita mi sitio web</a>
-![Enlace al ejercicio original](https://aceptaelreto.com/problem/statement.php?id=106&cat=4)
+<a href="[https://miweb.com](https://aceptaelreto.com/problem/statement.php?id=106&cat=4" target="_blank">Visita mi sitio web</a>
+[Enlace al ejercicio original](https://aceptaelreto.com/problem/statement.php?id=106&cat=4)
