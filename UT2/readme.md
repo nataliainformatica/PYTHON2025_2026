@@ -134,6 +134,7 @@ El dígito de comprobación es el número que hay que sumar al resultado anterio
 En EAN-13, los primeros dígitos se usan además para identificar al país. A continuación se indica una tabla (parcial) de esos códigos de país.
 
 Código	País		
+
 0	EEUU		
 539	 Irlanda		
 759	Venezuela
@@ -158,7 +159,7 @@ El último caso de prueba es seguido por una línea con un 0 que no provoca sali
 
 Para cada caso de prueba, el programa indicará si el dígito de control es correcto o no. Si lo es, escribirá "SI". En otro caso, escribirá "NO".
 
-Si el código de barras es EAN-13 y correcto, el programa escribirá además el país al que pertenece utilizando la tabla anterior (separado por un espacio). 
+(Ampliación para el uso de colecciones) . Si el código de barras es EAN-13 y correcto, el programa escribirá además el país al que pertenece utilizando la tabla anterior (separado por un espacio). 
 
 Si el código no aparece en la tabla, el programa mostrará "Desconocido". Ten cuidado al escribir los países; deberás respetar el uso de mayúsculas y minúsculas de la tabla.
 
