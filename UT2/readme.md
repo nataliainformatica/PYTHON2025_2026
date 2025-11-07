@@ -180,3 +180,6 @@ SI Desconocido
 SI Inglaterra
 NO
 ``` 
+
+#Ejercicio 6: Radares de tramo
+[Acepta el reto](https://aceptaelreto.com/problem/statement.php?id=112&cat=4)
