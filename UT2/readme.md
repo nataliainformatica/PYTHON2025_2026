@@ -200,3 +200,13 @@ También debe ser capaz de descifrarlo cuando así se lo indiquemos.
 
 Puedes ver información sobre el cifrado César en el siguiente enlace https://es.wikipedia.org/wiki/Cifrado_C%C3%A9sar
 
+```
+Constante	Contenido
+string.ascii_lowercase	"abcdefghijklmnopqrstuvwxyz"
+string.ascii_uppercase	"ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+string.ascii_letters	Todas las mayúsculas y minúsculas
+string.digits	"0123456789"
+string.hexdigits	"0123456789abcdefABCDEF"
+string.punctuation	símbolos como !"#$%&'()*+,-./:;<=>?@[\]^_{
+```
+
