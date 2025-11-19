@@ -181,5 +181,15 @@ SI Inglaterra
 NO
 ``` 
 
-#Ejercicio 6: Radares de tramo
+# Ejercicio 6: Radares de tramo
 [Acepta el reto](https://aceptaelreto.com/problem/statement.php?id=112&cat=4)
+
+# Ejercicio 7
+
+Invertir una cadena de textousando un bucle
+
+# Ejercicio 8
+
+Contar el número de vocales en una cadena de texto
+
+
