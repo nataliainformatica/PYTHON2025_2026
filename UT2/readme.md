@@ -193,3 +193,10 @@ Invertir una cadena de textousando un bucle
 Contar el número de vocales en una cadena de texto
 
 
+# Ejercicio 9
+
+Crea un programa que realize el cifrado César de un texto y lo imprima.
+También debe ser capaz de descifrarlo cuando así se lo indiquemos.
+
+[](https://es.wikipedia.org/wiki/Cifrado_C%C3%A9sar)
+
