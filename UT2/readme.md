@@ -265,7 +265,7 @@ El laberinto tendrá al menos dos niveles de decisiones (es decir, una pregunta 
 
  Instrucciones de funcionamiento del juego
 
-Crea una clase llamada MiniLaberinto.
+Crea el fichero MiniLaberinto.py: 
 
 Muestra un mensaje de bienvenida al jugador.
 
