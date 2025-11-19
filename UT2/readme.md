@@ -210,3 +210,23 @@ string.hexdigits	"0123456789abcdefABCDEF"
 string.punctuation	símbolos como !"#$%&'()*+,-./:;<=>?@[\]^_{
 ```
 
+# Ejercicio 10
+
+Haz un menú de usuario:
+
+*** MENÚ DE USUARIO *** ELIGE UNA OPCIÓN
+
+Introduce tu nombre
+Introduce tu dirección
+Introduce DNI
+Salir comprobando campos
+Salir sin comprobar
+Para las opciones del 1 al 3, aparecerá el mensaje correspondiente para que el usuario introduzca, nombre, dirección o dni. Si el usuario pulsa la opción 4. el programa comprobará que el usuario ha introducido todos los datos. Si no los ha introducido, le pedirá que continúe. "te falta algún dato por introducir, continúa por favor"
+
+Si el usuario pulsa la opción 5, el programa saldrá sin comprobar que se han introducido todos los datos.
+
+Si al salir del menú, se disponen de todos los datos del usuario, se mostrará un mensaje:
+
+DATOS CONFIRMADOS DEL USUARIO: "NOMBRE" , "DIRECCION", "DNI"
+
+Si no se disponen de todos los datos, no mostrará el mensaje anterior.
