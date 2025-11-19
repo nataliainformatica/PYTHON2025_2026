@@ -195,8 +195,8 @@ Contar el número de vocales en una cadena de texto
 
 # Ejercicio 9
 
-Crea un programa que realize el cifrado César de un texto y lo imprima.
+Crea un programa que permita hacer  el cifrado César de un texto y lo imprima.
 También debe ser capaz de descifrarlo cuando así se lo indiquemos.
 
-[](https://es.wikipedia.org/wiki/Cifrado_C%C3%A9sar)
+Puedes ver información sobre el cifrado César en el siguiente enlace https://es.wikipedia.org/wiki/Cifrado_C%C3%A9sar
 
