@@ -1,62 +1,39 @@
-# Programa para comprobar si una molécula de ADN está correctamente emparejada
-# Solo usa tipos básicos, bucles y comparaciones
+def menu_usuario():
+    nombre = None
+    direccion = None
+    dni = None
 
-# Pedir longitud de la molécula
-longitud = int(input("Introduce la longitud de la molécula de ADN: "))
+    while True:
+        print("\n*** MENÚ DE USUARIO *** ELIGE UNA OPCIÓN")
+        print("1. Introduce tu nombre")
+        print("2. Introduce tu dirección")
+        print("3. Introduce DNI")
+        print("4. Salir comprobando campos")
+        print("5. Salir sin comprobar")
 
-# Inicializar cadenas vacías
-cadena1 = ""
-cadena2 = ""
+        opcion = input("Elige una opción: ")
 
-# Variables para formar el resultado final
-resultado1 = ""
-resultado2 = ""
+        if opcion == "1":
+            nombre = input("Introduce tu nombre: ")
+        elif opcion == "2":
+            direccion = input("Introduce tu dirección: ")
+        elif opcion == "3":
+            dni = input("Introduce tu DNI: ")
+        elif opcion == "4":
+            # comprobación de datos
+            if not nombre or not direccion or not dni:
+                print("Te falta algún dato por introducir, continúa por favor")
+            else:
+                print("\nDATOS CONFIRMADOS DEL USUARIO:")
+                print(f"NOMBRE: {nombre}")
+                print(f"DIRECCIÓN: {direccion}")
+                print(f"DNI: {dni}")
+                break
+        elif opcion == "5":
+            break
+        else:
+            print("Opción no válida, intenta de nuevo.")
 
-# Bandera para saber si hay mutación
-hay_mutacion = False
 
-# Pedir las bases una a una
-print("\nIntroduce las bases de la primera cadena:")
-for i in range(longitud):
-    # base = input(f"Base {i+1}: ").strip()
-    base = input("Base ", i+1, " ").strip()
-    if len(base) == 0:
-        base = " "  # Evitar errores por vacío
-    cadena1 += base.upper()
-
-print("\nIntroduce las bases de la segunda cadena:")
-for i in range(longitud):
-    # base = input(f"Base {i+1}: ").strip()
-    base = input("Base ", i+1, " ").strip()
-    if len(base) == 0:
-        base = " "
-    cadena2 += base.upper()
-
-# Comprobar complementariedad base a base
-for i in range(longitud):
-    b1 = cadena1[i]
-    b2 = cadena2[i]
-
-    # Comprobamos las combinaciones válidas
-    if (b1 == "A" and b2 == "T") or \
-       (b1 == "T" and b2 == "A") or \
-       (b1 == "C" and b2 == "G") or \
-       (b1 == "G" and b2 == "C"):
-        # Emparejamiento correcto
-        resultado1 += b1
-        resultado2 += b2
-    else:
-        # Mutación → minúsculas
-        resultado1 += b1.lower()
-        resultado2 += b2.lower()
-        hay_mutacion = True
-
-# Mostrar resultados
-print("\nResultado:")
-print(resultado1)
-print(resultado2)
-
-if hay_mutacion:
-    print("\n Se ha detectado una mutación en las bases mostradas en minúsculas.")
-else:
-    print("\nLa molécula está correctamente emparejada.")
+# PROGRAMA PRINCIPAL
+menu_usuario()
