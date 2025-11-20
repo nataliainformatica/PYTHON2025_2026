@@ -323,3 +323,34 @@ true
 El puente se rompe y caes en un río subterráneo. Fin del juego.
 
 ```
+
+# Ejercicio 12
+Crea un programa que simule el registro de asistencia de estudiantes en una clase.
+
+El programa debe:
+
+Preguntar cuántos estudiantes hay en la clase (num_estudiantes).
+
+Preguntar cuántos días se va a registrar la asistencia (num_dias).
+
+Para cada estudiante, pedir su nombre.
+
+Usar un bucle for con range variable para iterar por cada día y preguntar si el estudiante asistió ese día (responder sí o no).
+
+Al final, mostrar un resumen de asistencia para cada estudiante.
+¿Cuántos estudiantes hay? 2
+¿Cuántos días se registrará la asistencia? 3
+
+Introduce el nombre del estudiante 1: Ana
+Día 1: ¿Ana asistió? sí
+Día 2: ¿Ana asistió? no
+Día 3: ¿Ana asistió? sí
+
+Ana asistió 2 días de 3
+
+Introduce el nombre del estudiante 2: Luis
+Día 1: ¿Luis asistió? sí
+Día 2: ¿Luis asistió? sí
+Día 3: ¿Luis asistió? no
+
+Luis asistió 2 días de 3
