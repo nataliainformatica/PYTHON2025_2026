@@ -414,3 +414,27 @@ Introduce un número: 7
 ¿Quieres jugar otra vez? (s/n): n
 Gracias por jugar. ¡Hasta luego!
 ```
+
+# Ejercicio 14
+Simulador de una cafetera automática
+
+La cafetera:
+
+Tiene un depósito máximo de agua (por ejemplo, 1000 ml)
+
+Puedes hacer cafés, que consumen agua:
+
+1. solo → 50 ml
+
+2. cortado → 70 ml
+
+3. con leche → 100 ml
+
+Puedes rellenar agua
+
+Puedes consultar el agua disponible
+
+Puedes apagar la cafetera
+
+Puedes consultar el número total  de cafés que se han hecho
+
