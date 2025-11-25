@@ -386,3 +386,31 @@ Día 2: ¿Luis asistió? sí
 Día 3: ¿Luis asistió? no
 
 Luis asistió 2 días de 3
+
+# Ejercicio 13
+
+Completa el código para el juego Adivina un número. 
+El número secreto está codificado como una variable. 
+
+```
+
+¡Bienvenido al juego de adivinar el número!
+Pista: es un número del 1 al 10.
+
+Introduce un número: 4
+Demasiado bajo, intenta de nuevo.
+Introduce un número: 15
+Demasiado alto, prueba otra vez.
+Introduce un número: 9
+Demasiado alto, prueba otra vez.
+Introduce un número: 6
+Demasiado bajo, intenta de nuevo.
+Introduce un número: 8
+Demasiado alto, prueba otra vez.
+Introduce un número: 6
+Demasiado bajo, intenta de nuevo.
+Introduce un número: 7
+¡Correcto! Lo acertaste en 7 intentos.
+¿Quieres jugar otra vez? (s/n): n
+Gracias por jugar. ¡Hasta luego!
+```
