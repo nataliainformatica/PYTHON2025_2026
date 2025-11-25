@@ -21,6 +21,38 @@ Queremos comprobar si la molécula está correctamente ordenada (es decir, si la
 
 Se pedirá al usuario que introduzca las dos cadenas, carácter a carácter.
 
+
+# Ejercicio 13
+Completa el código para hacer el juego de Adivina un número.
+El número secreto está escrito en el código.
+```
+¡Bienvenido al juego de adivinar el número!
+Pista: es un número del 1 al 10.
+
+Introduce un número: 4
+Demasiado bajo, intenta de nuevo.
+Introduce un número: 15
+Demasiado alto, prueba otra vez.
+Introduce un número: 9
+Demasiado alto, prueba otra vez.
+Introduce un número: 6
+Demasiado bajo, intenta de nuevo.
+Introduce un número: 8
+Demasiado alto, prueba otra vez.
+Introduce un número: 6
+Demasiado bajo, intenta de nuevo.
+Introduce un número: 7
+¡Correcto! Lo acertaste en 7 intentos.
+¿Quieres jugar otra vez? (s/n): n
+Gracias por jugar. ¡Hasta luego!
+
+
+```
+
+
+
+
+
 El usuario podrá escribir las bases en mayúscula o minúscula (A, T, C, G o a, t, c, g).
 
 El programa comprobará si las dos cadenas son complementarias correctamente:
