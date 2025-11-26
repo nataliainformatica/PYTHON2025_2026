@@ -438,3 +438,39 @@ Puedes apagar la cafetera
 
 Puedes consultar el número total  de cafés que se han hecho
 
+
+# Ejercicio 15
+
+Simulador de Calefacción con Planificación Semanal (versión simple sin listas)
+
+En el tema 2, aún  no podemos usar listas ni diccionarios, porque no los hemos visto,  vamos a hacer la planificación de forma estructurada:
+
+Cada día tendrá una franja:
+
+ mañana
+
+ tarde
+
+ noche
+
+El usuario configurará manualmente cada día.
+
+Guardaremos las temperaturas programadas en variables sueltas, una por franja y por día.
+Podemos usar funciones, para que el código se vea más claro. 
+La aplicación tendrá un menú: 
+```
+
+        print("\nOpciones:")
+        print("1. Consultar temperatura programada")
+        print("2. Simular cambio encender o apagar según  dia  y franja")
+        print("3. Apagar simulador")
+```
+
+Para la opción 1. preguntará
+   Día de la semana y Franja (mañana/tarde/noche): 
+
+Para la opción 2. preguntará
+   Día de la semana y Franja (mañana/tarde/noche), y temperatura actual
+
+   
+
