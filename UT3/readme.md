@@ -11,3 +11,9 @@ Ejercicio 6 -   retos Daily Coding Challenges - Free Code Camp
 For today's coding challenge, you'll take a string and convert all vowels to uppercase and make all other alphabetical characters lowercase.
 
 <img width="486" height="537" alt="image" src="https://github.com/user-attachments/assets/0c4978cd-bbcb-4b8d-a0df-d9de2ede7862" />
+
+
+#Ejercicio 7 -
+For today's coding challenge, you'll get an array of numbers. Your job is to determine if the numbers are sorted in ascending order, descending order, or neither.
+
+<img width="486" height="629" alt="image" src="https://github.com/user-attachments/assets/12661ece-fd4b-4b30-8295-b6af09e7edc3" />
