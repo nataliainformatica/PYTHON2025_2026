@@ -45,6 +45,7 @@ For today's coding challenge, you'll determine how many plants of a certain type
 For today's coding challenge, you'll build a little markdown link parser. 
 <img width="462" height="585" alt="image" src="https://github.com/user-attachments/assets/9ce72a6b-4269-4730-a611-81fd26699bf9" />
 
+# Ejercicio 13
 
 <img width="245" height="308" alt="image" src="https://github.com/user-attachments/assets/046f7fa7-31bf-4620-acaa-e6ee7d1b2af2" />
 
