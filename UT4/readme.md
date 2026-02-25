@@ -8,6 +8,51 @@ Escribir un programa en Python que determine si una donación de sangre es posib
 **Descripción:**
 
 Los tipos de sangre son: O-, O+, A-, A+, B-, B+, AB- y AB+. 
+```
+compatibilidad_sanguinea = {
+    "O-": ["O-"],
+    "O+": ["O-", "O+"],
+    "A-": ["O-", "A-"],
+    "A+": ["O-", "O+", "A-", "A+"],
+    "B-": ["O-", "B-"],
+    "B+": ["O-", "O+", "B-", "B+"],
+    "AB-": ["O-", "A-", "B-", "AB-"],
+    "AB+": ["O-", "O+", "A-", "A+", "B-", "B+", "AB-", "AB+"]
+}
+# Ejemplo de uso: ver qué grupos pueden donar a A+
+print(compatibilidad_sanguinea["A+"])
+
+```
+
+
+otra posibilidad de uso de datos: 
+```
+# Listado de grupos sanguíneos como tuplas (tipo, rh)
+grupos = [
+    ("O", "-"), ("O", "+"),
+    ("A", "-"), ("A", "+"),
+    ("B", "-"), ("B", "+"),
+    ("AB", "-"), ("AB", "+")
+]
+
+# Diccionario receptor  con  lista de  grupos donantes  y sus grupos compatibles en el receptor
+compatibilidad_sanguinea = {
+    ("O", "-"): [("O", "-")],
+    ("O", "+"): [("O", "-"), ("O", "+")],
+    ("A", "-"): [("O", "-"), ("A", "-")],
+    ("A", "+"): [("O", "-"), ("O", "+"), ("A", "-"), ("A", "+")],
+    ("B", "-"): [("O", "-"), ("B", "-")],
+    ("B", "+"): [("O", "-"), ("O", "+"), ("B", "-"), ("B", "+")],
+    ("AB", "-"): [("O", "-"), ("A", "-"), ("B", "-"), ("AB", "-")],
+    ("AB", "+"): grupos  # Todos los grupos son compatibles
+}
+# Ejemplo de uso
+receptor = ("A", "+")
+print(f"Donantes compatibles con {receptor}: {compatibilidad_sanguinea[receptor]}")
+``` 
+# Ejemplo de uso: ver qué grupos pueden donar a A+
+print(compatibilidad_sanguinea["A+"])
+
 
 Cada tipo de sangre puede donar a ciertos otros tipos, según las reglas de compatibilidad.
 
