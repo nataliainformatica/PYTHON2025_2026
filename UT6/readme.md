@@ -19,14 +19,14 @@ EJERCICIO DE CLASES - HERENCIA (SIMPLE)- FICHEROS DE CARACTERES -
    5. Salir (los datos se guardan automáticamente al salir
       y se cargan al arrancar).
 
- Conceptos practicados
- ─────────────────────
+ ## Conceptos practicados
+ 
    • Herencia:     Libro y Audiovisual heredan de Obra.
    • Polimorfismo: cada clase redefine __str__ y to_linea().
    • Persistencia: fichero de texto propio separado por comas.
-                 
- Formato del fichero 'catalogo.txt'
- ───────────────────────────────────
+
+## Formato del fichero 'catalogo.txt'
+ 
  Cada línea representa una obra. Los campos están separados
  por comas. El primer campo indica el tipo.
 
