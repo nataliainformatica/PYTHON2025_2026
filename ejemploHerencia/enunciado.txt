@@ -1,0 +1,16 @@
+def menu():
+   pass 
+
+Toda obra tiene: título, autor y año de publicación.
+
+Existen dos tipos de obras:
+
+Libro además guarda el número de páginas.
+Audiovisual además guarda la duración en minutos.
+El programa debe permitir:
+
+Añadir una obra (libro o audiovisual). (Usando el catálogo guardado previamente)
+Listar todas las obras guardadas.
+Buscar obras por autor.
+Eliminar una obra por título.
+Salir (los datos se guardan automáticamente al salir y se cargan al arrancar).
