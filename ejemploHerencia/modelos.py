@@ -1,5 +1,5 @@
 """
-Toda obra tiene: título, autor y año de publicación.
+Toda Obra tiene: título, autor y año de publicación.
 
 Existen dos tipos de obras:
 
@@ -11,9 +11,11 @@ class Obra:
         self.titulo = titulo
         self.autor = autor
         self.anio=anio
+
+
     #necesitamos el método que nos convierte el objeto a formato str
     def __str__(self):
-        return f'"{self.titulo}" -"{self.autor} ({self.anio})'
+        return f'"{self.titulo}" -"{self.autor}"- ({self.anio})'
 
 class Libro(Obra):
     #herencia de obra con número de páginas
